@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    background-color:slateblue;
+    font-size: 20px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    margin-bottom: 0px;
+  }
+  
+  .brand-name {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .navbar-inner {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 0px;
+  }
+  #link-text {
+    color: white;
+    text-decoration: none;
+  }
+  

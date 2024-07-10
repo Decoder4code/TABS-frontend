@@ -1,0 +1,22 @@
+
+#mod-f2{
+    border:1px solid black;
+    background: linear-gradient(rgb(164, 156, 115),rgb(0, 174, 255));
+    width:25%;
+    padding:2rem;
+    height:30%;
+    border-radius: 5px;
+   
+    margin:0 auto;
+}
+#mod-f1{
+    
+    background-image: url(../images/paristour.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover; 
+    width:100%;
+    height: 100%;
+    padding:2rem;
+   
+}

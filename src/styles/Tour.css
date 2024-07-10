@@ -1,0 +1,25 @@
+#tour-f1{
+    border:1px solid black;
+    background: linear-gradient(rgb(136, 255, 0),rgb(255, 0, 115));
+    width:40%;
+    padding:2rem;
+    margin:0 auto;
+    border-radius: 5px;
+}
+#tour-f2{
+    border:1px solid black;
+    background: linear-gradient(rgb(164, 156, 115),rgb(0, 174, 255));
+    width:40%;
+    padding:2rem;
+    margin:4rem auto;
+    border-radius: 5px;
+}
+#tour-bkg{
+    background-image: url(../images/paristour.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover; 
+    padding:5rem;
+    height: 100%;
+    width:101%;
+}

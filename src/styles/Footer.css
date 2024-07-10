@@ -1,0 +1,22 @@
+.footbar{
+    display: flex;
+    background-color:slateblue;
+    font-size: 20px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding:1rem;
+    position: fixed;
+    width:100%;
+}
+
+.footbar-inner{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+#foot-text {
+    color: white;
+    text-decoration: none;
+  }

@@ -1,0 +1,24 @@
+.home-center{
+    display: grid;
+    text-align: center;
+    border:1px solid black;
+    border-radius:2rem;
+    width:30%;
+    padding:2rem;
+    margin: auto;
+    margin-top: 0px; 
+    background-image:url(../images/boeing.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: larger;
+    color:black;
+  }
+  .bg {
+    height: 100%;
+    background-image: url(../images/Designer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:1rem;
+  }
