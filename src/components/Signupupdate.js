@@ -12,7 +12,7 @@ function Signupupdate() {
         event.preventDefault();
         const data = { email, password };
         console.log(data);
-        let url = "http://localhost:4000/users/updateUser/${userid}";
+        let url = "https://tabs-backend-1.onrender.com/users/updateUser/${userid}";
         try {
             const res = await axios.put(url, data); 
             if (res.status === 200) {

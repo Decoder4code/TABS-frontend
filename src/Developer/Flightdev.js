@@ -17,7 +17,7 @@ function Flight() {
         const data = { from, to, date , name };
         console.log(data);
 
-        let url = "http://localhost:4000/flight/flights/createFlight";
+        let url = "https://tabs-backend-1.onrender.com/flight/flights/createFlight";
         try {
             const res = await axios.post(url, data);
             if (res.status === 201) { 

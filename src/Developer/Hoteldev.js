@@ -15,7 +15,7 @@ function Hotels() {
         const data = { name: hotelName, city };
         console.log(data);
 
-        let url = "http://localhost:4000/hotel/hotels/addHotel";
+        let url = "https://tabs-backend-1.onrender.com/hotel/hotels/addHotel";
         try {
             const res = await axios.post(url, data);
             if (res.status === 201) {

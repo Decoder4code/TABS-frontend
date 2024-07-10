@@ -16,7 +16,7 @@ function Signup() {
         const inputobj = { userid, email, password };
         console.log(inputobj);
 
-        let url = "http://localhost:4000/users/createUser";
+        let url = "https://tabs-backend-1.onrender.com/users/createUser";
 
         try {
             const res = await axios.post(url, inputobj);

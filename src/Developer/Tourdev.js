@@ -14,7 +14,7 @@ function Tour() {
     const addTour = async (event) => {
         event.preventDefault();
         const data = { tourName, place };
-        let url = "http://localhost:4000/tour/tours/addTour";
+        let url = "https://tabs-backend-1.onrender.com/tour/tours/addTour";
         try {
             const res = await axios.post(url, data);
             if (res.status === 201) {

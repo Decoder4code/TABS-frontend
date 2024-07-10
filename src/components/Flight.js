@@ -13,7 +13,7 @@ function Flight() {
     const searchFlights = async (event) => {
         event.preventDefault();
         const queryParams = new URLSearchParams({ from, to, date }).toString();
-        const url = `http://localhost:4000/flight/flights/getFlights?${queryParams}`;
+        const url = `https://tabs-backend-1.onrender.com/flight/flights/getFlights?${queryParams}`;
 
         try {
             const res = await axios.get(url);

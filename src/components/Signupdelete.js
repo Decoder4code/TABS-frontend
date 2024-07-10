@@ -8,7 +8,7 @@ function Signupdelete(){
     const [userid,setid] = useState("");
     const deleteUser = async (event) => {
         event.preventDefault();
-        let url = "http://localhost:4000/users/deleteUser/${userid}";
+        let url = "https://tabs-backend-1.onrender.com/users/deleteUser/${userid}";
 
         try {
             const res = await axios.delete(url);

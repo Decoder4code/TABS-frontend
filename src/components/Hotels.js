@@ -11,7 +11,7 @@ function Hotels() {
     const searchHotels = async (event) => {
         event.preventDefault();
         const queryParams = new URLSearchParams({ city }).toString();
-        const url = `http://localhost:4000/hotel/hotels/getHotels?${queryParams}`;
+        const url = `https://tabs-backend-1.onrender.com/hotel/hotels/getHotels?${queryParams}`;
 
         try {
             const res = await axios.get(url);

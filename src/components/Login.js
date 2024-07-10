@@ -64,7 +64,7 @@ function Login() {
         event.preventDefault();
         const data = { email, password };
         try {
-            const res = await axios.post("http://localhost:4000/users/loginuser", data);
+            const res = await axios.post("https://tabs-backend-1.onrender.com/users/loginuser", data);
             if (res.status === 200) {
                 const specialUsers = [
                     { email: "1931@gmail.com", password: "12345" },

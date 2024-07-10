@@ -14,7 +14,7 @@ function Tour() {
     const searchTours = async (event) => {
         event.preventDefault();
         const queryParams = new URLSearchParams({ tourName: searchTour }).toString();
-        const url = `http://localhost:4000/tour/tours/getTour?${queryParams}`;
+        const url = `https://tabs-backend-1.onrender.com/tour/tours/getTour?${queryParams}`;
         try {
             const res = await axios.get(url);
             if (res.status === 200) {
